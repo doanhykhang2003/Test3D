@@ -32,5 +32,6 @@ public class CollisionDetection : MonoBehaviour
     private void OnCollisionExit(Collision collision)
     {
         Debug.Log("OnCollisionExit" + collision.gameObject.name);
+        //Hello
     }
 }
